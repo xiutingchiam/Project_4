@@ -53,7 +53,7 @@ Adresses the class imbalance and tries to improve recall scores which, without S
 Run various models in each of the 4 categories, use GridSearchCV for hyper-parameter tuning. In addition to 
 Choose the production model based on the metrics above: ROC-AUC we get from submitting the model to Kaggle, and recall from our own test set we obtained via train-test-split.
 
-### Conclustion
+### Conclusion
 
 **There are many reasons to suggest not spending resources on spraying:**
 
@@ -71,7 +71,7 @@ Choose the production model based on the metrics above: ROC-AUC we get from subm
 
 ### Beyond the cost-benefit: What's next?
 
-the only way to substantially improve our model and make use of City's limited spraying finds, is to extend the model in such a way so that it is able to pinpoint the micro-location of where the Wnv mosquitoes will be present. This would include more advanced use of GPS data, as well as teaming up with weather experts and entomologists to model the ways in which mosquitoes move around the city based on atmospheric data and their biological needs. 
+The only way to substantially improve our model and make use of City's limited spraying finds, is to extend the model in such a way so that it is able to pinpoint the micro-location of where the Wnv mosquitoes will be present. This would include more advanced use of GPS data, as well as teaming up with weather experts and entomologists to model the ways in which mosquitoes move around the city based on atmospheric data and their biological needs. 
 
 ---
 
