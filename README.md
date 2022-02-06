@@ -20,6 +20,37 @@ The Authorities have provided us with 4 datasets:
 4. [Test](./datasets/test.csv), and
 5. Mapping resources.
 ---
+#### Data Dictionary
+We have processed this data into the following fields:
+
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
+|date|<i>datetime</i>|final_train|Date of observation| 
+|species|<i>object</i>|final_train|Mosquito species| 
+|latitude|<i>float</i>|final_train|Latitude of observation| 
+|longitude|<i>float</i>|final_train|Longitude of observation| 
+|nummosquitos|<i>int</i>|final_train|Num of mosquitoes observed| 
+|wnvpresent|<i>int</i>|final_train|Presence of west nile virus where 1 is present and 0 is not present| 
+|longitude|<i>float</i>|final_train|Longitude of observation| 
+|year|<i>int</i>|final_train|Year of observation|
+|weekofyear|<i>int</i>|final_train|Week of the year|
+|dum_species|<i>int</i>|final_train|Species where west nile virus might be present|
+|tavg|<i>float</i>|final_train|Average temperature (celsius) of each day of the observation|
+|preciptotal|<i>float</i>|final_train|Total precipitation recorded (inches) on each day of the observation|
+|stnpressure|<i>float</i>|final_train|Average station pressure (inches of HG)|
+|sealevel|<i>float</i>|final_train|Average sea level pressure (inches of HG)|
+|resultspeed|<i>float</i>|final_train|Resultant wind speed (miles per hour)|
+|resultdir|<i>float</i>|final_train|Resultant wind direction (To tens of whole degrees)|
+|resultspeed|<i>float</i>|final_train|Resultant wind speed (miles per hour)|
+|avgspeed|<i>float</i>|final_train|Average speed (miles per hour)|
+|humidity|<i>float</i>|final_train|Relative humidity, calculated using tavg in celsius and dewpoint|
+|daylength|<i>float</i>|final_train|Length of the day, calculated using sunrise and sunset|
+|tavg_lag14|<i>float</i>|final_train|Average temperature (celsius), with 14 lag days|
+|humidity_lag14|<i>float</i>|final_train|Relative humidity, with 14 lag days|
+|preciptotal_lag14|<i>float</i>|final_train|Total precipitation recorded (inches), with 14 lag days|
+|resultspeed_lag14|<i>float</i>|final_train|Resultant wind speed (miles per hour), with 14 lag days|
+
+---
 
 ## Methodology
 
